@@ -1,6 +1,6 @@
 #########
 required
-node, npm, vs code
+node, npm, vs code, xampp, phpmyadmin
 #########
 Frontend
 Create React App
@@ -21,5 +21,6 @@ add in script
   },
 >npm install express
 >npm i cors
+>npm i mysql
 
 

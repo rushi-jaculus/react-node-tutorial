@@ -1,0 +1,9 @@
+CREATE DATABASE tutorial_student CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+use tutorial_student;
+
+CREATE TABLE `student` (
+  `student_id` int(10) NOT NULL AUTO_INCREMENT ,
+  `name` varchar(500) NOT NULL,
+  `location` varchar(200) NOT NULL,
+  PRIMARY KEY (`student_id`) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
